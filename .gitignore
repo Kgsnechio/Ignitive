@@ -1,0 +1,24 @@
+# Excluir a virtual environment
+venv/
+
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+
+# Configurações do ambiente
+.env
+*.env
+
+# Arquivos de logs
+*.log
+
+# Arquivos de banco de dados locais
+db.sqlite3
+
+# Arquivos do VS Code
+.vscode/
+
+# Dependências do pip
+dist/
+build/
+*.egg-info/
