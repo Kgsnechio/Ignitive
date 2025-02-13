@@ -6,7 +6,7 @@ class Base(DeclarativeBase):
     pass
 
 # URL do banco de dados SQLite
-DATABASE_URL = "sqlite:///banco.db"
+DATABASE_URL = "sqlite:///data/banco.db"
 
 # Criar o engine para conexão com o banco
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
